@@ -61,13 +61,6 @@ Access the MIMIC dataset via [Physionet MIMIC III wdb](https://physionet.org/con
 ### PhysioNet/CinC Challenge 2015 Dataset
 Download from [PhysioNet Challenge 2015](https://physionet.org/content/challenge-2015/1.0.0/). The dataset includes alarm types: **VT (Ventricular Tachycardia), VFib, Asystole, Tachycardia, Bradycardia**. You can use the script `Data Process/Data_process.py` to convert the raw waveform data (WFDB Format) into the required `.pt` format. 
 
-### Pre-training Data
-Pre-training uses a large unlabeled waveform collection. You can download our preprocessed pre-training dataset from [Coming Soon]().
-
-Place the file at:
-```
-datasets/pre-train.pt
-```
 
 ---
 
@@ -169,12 +162,6 @@ The model is evaluated using the following metrics:
 - **F1 Score**
 - **PPV** (Precision)
 - **AUC-ROC**
-
----
-
-## Pre-trained Models
-
-You can find our pre-trained model checkpoints on [Coming Soon]().
 
 ---
 
